@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+div#root {
+  margin: 0 10vw;
+}
+.App-header {
+  background-color: #5472af;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px 0;
+}
+.wrapheader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer{
+  background-color: #5472af;
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+header ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+li{
+  list-style: none;
+  position: relative;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+span.usrName {
+  padding-left: 10px;
+}
+span.usrImg {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 100px;
+}
+.Content {
+  text-align: left;
+  padding: 18px;
+  border: 1px solid;
+  margin: 16px;
+}
+
+section{
+  max-height: 75vh;
+  overflow: auto;
+}
+span.close {
+  font-weight: bold;
+  position: absolute;
+  right: 20px;
+  padding: 6px 11PX;
+  border: 1px solid green;
+  border-radius: 50PX;
+}
+.err{
+  color: red;
+}
+.detailsPage{
+  text-align: left;
+}
+.body{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
